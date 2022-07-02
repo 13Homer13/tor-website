@@ -1,0 +1,26 @@
+.box1, .box2, .box3 {
+  background-color: white;
+  height: 100px;
+  text-align: center;
+  padding-top: 10px;
+  width: 400px;
+  margin-bottom: 50px;
+  font-size: 30px;
+
+}
+.box1:hover {box-shadow: 3px 3px 6px gray;}
+.box2:hover {box-shadow: 3px 3px 6px gray;}
+.box3:hover {box-shadow: 3px 3px 6px gray;}
+
+.box1-pic {height: 100px;}
+.box2-pic {height: 85px;}
+.box3-pic {height: 100px;}
+
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
