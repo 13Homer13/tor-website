@@ -1,3 +1,4 @@
+
 .box1, .box2, .box3 {
   background-color: white;
   height: 100px;
@@ -16,21 +17,27 @@
 .box2-pic {height: 85px;}
 .box3-pic {height: 100px;}
 
-.body {
+.box-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
 }
-
-
-
-      .smbody {
-        background-image: url();
-      }
       
-      .smlinks {
-       
-        margin-top: 100px;
-        text-align: center;
-      }
+  .smlinks {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .smlinks-p1, .smlinks-p2, .smlinks-p3 {
+    margin-top: 50px;
+  }
+  .sm-body {
+    background-color: lightblue;
+    background-image: url("http://bleimschein.net/wp-content/uploads/2019/02/Bildschirmfoto-2019-02-16-um-14.26.15.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-bottom: 700px;
+  }
