@@ -3,4 +3,6 @@ body {
 }
 p {
   margin: 0;
+  line-height: 50px;
+  margin-left: 50px;
 }
