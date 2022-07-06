@@ -1,25 +1,44 @@
 .index-body {
-  background-image: url("http://bleimschein.net/wp-content/uploads/2019/02/Bildschirmfoto-2019-02-16-um-14.26.15.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 .box1, .box2, .box3 {
   background-color: white;
   height: 100px;
-  text-align: center;
-  padding-top: 10px;
   width: 400px;
   margin-bottom: 50px;
   font-size: 30px;
   transition: 1s;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
 }
 .box1:hover {box-shadow: 3px 3px 6px gray;}
 .box2:hover {box-shadow: 3px 3px 6px gray;}
 .box3:hover {box-shadow: 3px 3px 6px gray;}
 
-.box1-pic {height: 100px;}
+.box1-pic {
+height: 75px;
+padding-top: 10px;
+}
+.box1-text {
+  padding-left: 20px;
+}
+.box2-icon {
+  padding-right: 40px;
+
+}
+.box2-text {
+  padding-right: 26px;
+}
+.box3-icon {
+  padding-right: 30px;
+}
+.box3-text {
+
+}
 .box2-pic {height: 85px;}
-.box3-pic {height: 100px;}
+.box3-pic {height: 85px;}
 
 .box-body {
   display: flex;
@@ -38,8 +57,5 @@
   }
   .sm-body {
     background-color: lightblue;
-    
-    background-repeat: no-repeat; 
-    background-size: cover;
     margin-bottom: 700px;
   }
