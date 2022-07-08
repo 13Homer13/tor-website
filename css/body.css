@@ -1,5 +1,7 @@
 .index-body {
- 
+ margin: 0;
+ padding-top: 80px;
+ height: 1000px;
 }
 .box1, .box2, .box3 {
   background-color: white;
@@ -29,7 +31,7 @@ padding-top: 10px;
 
 }
 .box2-text {
-  padding-right: 26px;
+ padding-right: 30px;
 }
 .box3-icon {
   padding-right: 30px;
